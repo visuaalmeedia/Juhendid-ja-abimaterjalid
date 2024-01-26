@@ -1,14 +1,14 @@
-# Reflektsioonid-op
-See on reflektsioonide näidisrepo  
+# Juhendid ja abimaterjalid  
+## Tundide korraldus
 Lisa iga tunni alguses ja lõpus oma meelestatus. lisa tunni lõpus ka pikem kommentaar tunni kohta.
 Vaata siit:
-## Tunni alguse sissekanne
+### Tunni alguse sissekanne
 Hinda 10-balli skaalal:
 * Tänane tuju
 * Huvi tunni vastu
 * Arusaamine aine eesmärkidest
 
-## Tunni lõpus
+### Tunni lõpus
 Hinda 10-balli skaalal:
 * Tuju tunni lõpus
 * Huvi teema vastu tunni lõpus
@@ -18,3 +18,5 @@ Lisaks kirjuta vabas vormis, mis meeldis, mis ei meeldinud, millele võiks rohke
 Markdow failid nimetage alati nõnda – "tunni number-kuupäev-kuu.md"
 
 Näide: [01-26-jaanuar.md](01-26-jaanuar.md)
+
+## Git'i ja Gitjubi abi
