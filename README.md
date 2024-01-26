@@ -46,7 +46,7 @@ Kasutaja määramine kohalikult:
 Klobaalset kasuta määramist arvutites, kus ka teised tööd teevad, pole vast mõistlik panna, kui just pärast kindlalt maha võtad.
 
 ### Peamised git'i käsud
-Peamised git'käsud, mis tasub meie kursusel meelde jätta, on järgmised:
+Peamised git'käsud, mis tasub meie kursusel meelde jätta, on järgmised:  
 Giti kloonimine oma masinasse:  
 `git clone [sinurepositooriumi aadress]`  
 Uuenduste allatõmbamine juba kloonitud reposse:  
