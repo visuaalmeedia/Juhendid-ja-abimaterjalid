@@ -16,6 +16,7 @@ Hinda 10-balli skaalal:
 Lisaks kirjuta vabas vormis, mis meeldis, mis ei meeldinud, millele võiks rohkem tähelepanu pöörata.
 
 
+
 **Näide:**
 ## 26. jaanuar
 ### Tunni algus
