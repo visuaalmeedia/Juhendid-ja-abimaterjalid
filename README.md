@@ -32,14 +32,14 @@ Sageli juhtub kooli arvutites, et eelmine kasutaja ei ole oma Githubi kasutajat 
 
 Kui endiselt tekib probleeme proovida ka terminalis git'i kasutajanime muuta ja kontrollida, kas masinas on seadistatud globaalne git'i kasutaja.
 
-Globaalse git'i kasutaja kontroll:
+Globaalse git'i kasutaja kontroll:  
 `git config --global user.name`
 
-Globaalse git'i kasutaja mahavõtmine:
+Globaalse git'i kasutaja mahavõtmine:  
 `git config --global --unset user.email`
 
-Kasutaja määramine kohalikult:
-`git config user.name "SinuNimi"`
-`git config user.email "SinuEpost@example.com"`
+Kasutaja määramine kohalikult:  
+`git config user.name "SinuNimi"`  
+`git config user.email "SinuEpost@example.com"`  
 
 Klobaalset kasuta määramist arvutites, kus ka teised tööd teevad, pole vast mõistlik panna, kui just pärast kindlalt maha võtad.
