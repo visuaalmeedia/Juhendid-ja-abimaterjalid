@@ -8,7 +8,7 @@
   - [Git'i ja Githubi abi](#giti-ja-githubi-abi)
     - [Peamised git'i käsud](#peamised-giti-käsud)
 ## Tundide korraldus
-Lisa iga tunni alguses ja lõpus oma meelestatus. Lisa tunni lõpus ka pikem kommentaar tunni kohta. Seda repositoorumi võiks pidada nagu tunni konspekti, ka muu oluline tasuks siia kirja panna, kas tundide kireldustesse või võib teha ka ühe README.md faili selle jaoks.  
+Seda repositoorumi võiks pidada nagu tunni konspekti, ka muu oluline tasuks siia kirja panna, kas tundide kireldustesse või võib teha ka ühe README.md faili selle jaoks. Iga tunni kohta tuleb luua aga md-fail, millesse kirjuta tunni alguses alguse  ja tunni lõpus lõpu meelestatus. Lisa tunni lõpus ka pikem kommentaar kogu tunni kohta.   
 
 **Sellised võiks olla tundide md-failid:**
 ### Tunni alguse sissekanne
