@@ -24,8 +24,8 @@ Hinda 10-balli skaalal:
 * Arusaamine tunni teemast tunni lõpuks
 Lisaks kirjuta vabas vormis, mis meeldis, mis ei meeldinud, millele võiks rohkem tähelepanu pöörata.
 
-Markdow failid nimetage alati nõnda – "tunni number-kuupäev-kuu.md"
-
+**Markdown failid nimetage alati nõnda – "tunni number-kuupäev-kuu.md"
+**
 Näide: [01-26-jaanuar.md](01-26-jaanuar.md)
 
 ## Git'i ja Githubi abi
