@@ -1,4 +1,11 @@
 # Juhendid ja abimaterjalid  
+## Sisukord
+- [Juhendid ja abimaterjalid](#juhendid-ja-abimaterjalid)
+  - [Sisukord](#sisukord)
+  - [Tundide korraldus](#tundide-korraldus)
+    - [Tunni alguse sissekanne](#tunni-alguse-sissekanne)
+    - [Tunni lõpus](#tunni-lõpus)
+  - [Git'i ja Gitjubi abi](#giti-ja-gitjubi-abi)
 ## Tundide korraldus
 Lisa iga tunni alguses ja lõpus oma meelestatus. lisa tunni lõpus ka pikem kommentaar tunni kohta.
 Vaata siit:
