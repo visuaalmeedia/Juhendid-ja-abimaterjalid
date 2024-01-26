@@ -5,7 +5,7 @@
   - [Tundide korraldus](#tundide-korraldus)
     - [Tunni alguse sissekanne](#tunni-alguse-sissekanne)
     - [Tunni lõpus](#tunni-lõpus)
-  - [Git'i ja Gitjubi abi](#giti-ja-gitjubi-abi)
+  - [Git'i ja Githubi abi](#giti-ja-githubi-abi)
 ## Tundide korraldus
 Lisa iga tunni alguses ja lõpus oma meelestatus. lisa tunni lõpus ka pikem kommentaar tunni kohta.
 Vaata siit:
@@ -26,4 +26,6 @@ Markdow failid nimetage alati nõnda – "tunni number-kuupäev-kuu.md"
 
 Näide: [01-26-jaanuar.md](01-26-jaanuar.md)
 
-## Git'i ja Gitjubi abi
+## Git'i ja Githubi abi
+Sageli juhtub kooli arvutites, et eelmine kasutaja ei ole oma Githubi kasutajat välja loginud. Sel juhul ei saa te oma githubi kontole terminali kaudu sisse. Esmalt logige ennast Visual Studio Code vasakul all nurgas oleva nupu kaudu välja, seejärel tehke terminalile igaks juhuks taaskäivitus ja seejärel logige sealt samast uuesti sisse.
+![Gthub log out](img/vscodeuser.jpg)
