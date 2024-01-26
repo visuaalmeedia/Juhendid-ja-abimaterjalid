@@ -8,8 +8,9 @@
   - [Git'i ja Githubi abi](#giti-ja-githubi-abi)
     - [Peamised git'i käsud](#peamised-giti-käsud)
 ## Tundide korraldus
-Lisa iga tunni alguses ja lõpus oma meelestatus. Lisa tunni lõpus ka pikem kommentaar tunni kohta. Seda repositoorumi võiks pidada nagu tunni konspekti, ka muu oluline tasuks siia kirja panna, kas tundide kireldustesse või võib teha ka ühe README.md faili selle jaoks.
-Vaata siit:
+Lisa iga tunni alguses ja lõpus oma meelestatus. Lisa tunni lõpus ka pikem kommentaar tunni kohta. Seda repositoorumi võiks pidada nagu tunni konspekti, ka muu oluline tasuks siia kirja panna, kas tundide kireldustesse või võib teha ka ühe README.md faili selle jaoks.  
+
+**Sellised võiks olla tundide md-failid:**
 ### Tunni alguse sissekanne
 Hinda 10-balli skaalal:
 * Tänane tuju
