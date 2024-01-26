@@ -1,7 +1,7 @@
 # Reflektsioonid-op
 See on reflektsioonide näidisrepo  
-Lisa iga tunni alguses oma meelestatud sama ka lõpus.
-
+Lisa iga tunni alguses ja lõpus oma meelestatus. lisa tunni lõpus ka pikem kommentaar tunni kohta.
+Vaata siit:
 ## Tunni alguse sissekanne
 Hinda 10-balli skaalal:
 * Tänane tuju
