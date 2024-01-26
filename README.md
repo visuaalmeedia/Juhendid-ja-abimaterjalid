@@ -6,6 +6,7 @@
     - [Tunni alguse sissekanne](#tunni-alguse-sissekanne)
     - [Tunni lõpus](#tunni-lõpus)
   - [Git'i ja Githubi abi](#giti-ja-githubi-abi)
+    - [Peamised git'i käsud](#peamised-giti-käsud)
 ## Tundide korraldus
 Lisa iga tunni alguses ja lõpus oma meelestatus. lisa tunni lõpus ka pikem kommentaar tunni kohta.
 Vaata siit:
@@ -43,3 +44,17 @@ Kasutaja määramine kohalikult:
 `git config user.email "SinuEpost@example.com"`  
 
 Klobaalset kasuta määramist arvutites, kus ka teised tööd teevad, pole vast mõistlik panna, kui just pärast kindlalt maha võtad.
+
+### Peamised git'i käsud
+Peamised git'käsud, mis tasub meie kursusel meelde jätta, on järgmised:
+Giti kloonimine oma masinasse:  
+`git clone [sinurepositooriumi aadress]`  
+Uuenduste allatõmbamine juba kloonitud reposse:  
+`git pull`  
+Tehtud muudatuste lisamine töökorraldusse:  
+`git add .`  
+Hetkeseisu salvestamine ja kommentaar tehtu kohta:  
+`git commit -m "Kommentaar tehtud muudatuse kohta"`  
+Muudatuste saatmine eemal asuvasse reposse:  
+`git push`  
+
