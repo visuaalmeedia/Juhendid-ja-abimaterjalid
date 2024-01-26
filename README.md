@@ -7,6 +7,7 @@
     - [Tunni lõpus](#tunni-lõpus)
   - [Git'i ja Githubi abi](#giti-ja-githubi-abi)
     - [Peamised git'i käsud](#peamised-giti-käsud)
+    - [Githubi repo sisu muutmine VSC veebiversioonid](#githubi-repo-sisu-muutmine-vsc-veebiversioonid)
 ## Tundide korraldus
 Seda repositoorumi võiks pidada nagu tunni konspekti, ka muu oluline tasuks siia kirja panna, kas tundide kireldustesse või võib teha ka ühe README.md faili selle jaoks. Iga tunni kohta tuleb luua aga md-fail, millesse kirjuta tunni alguses alguse  ja tunni lõpus lõpu meelestatus. Lisa tunni lõpus ka pikem kommentaar kogu tunni kohta.   
 
@@ -59,3 +60,5 @@ Hetkeseisu salvestamine ja kommentaar tehtu kohta:
 Muudatuste saatmine keskreposse:  
 `git push`   
 
+### Githubi repo sisu muutmine VSC veebiversioonid
+Githubi sisu on võimalik toimetada ka veebis. Eriti hea on seda teha Visual Studio Code veebiredigeerija kaudu. Selleks tuleb lihtsalt on repositooriumi aadressi ette lisada `https://vscode.dev/` nt siinse repositoorumi VSC veebiversioonis redigeerimiseks oleks: `https://vscode.dev/github.com/visuaalmeedia/Juhendid-ja-abimaterjalid`
