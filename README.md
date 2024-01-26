@@ -60,5 +60,5 @@ Hetkeseisu salvestamine ja kommentaar tehtu kohta:
 Muudatuste saatmine keskreposse:  
 `git push`   
 
-### Githubi repo sisu muutmine VSC veebiversioonid
+### Githubi repo sisu muutmine VSC veebiversioonis
 Githubi sisu on võimalik toimetada ka veebis. Eriti hea on seda teha Visual Studio Code veebiredigeerija kaudu. Selleks tuleb lihtsalt on repositooriumi aadressi ette lisada `https://vscode.dev/` nt siinse repositoorumi VSC veebiversioonis redigeerimiseks oleks: `https://vscode.dev/github.com/visuaalmeedia/Juhendid-ja-abimaterjalid`
