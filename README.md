@@ -44,7 +44,7 @@ Kasutaja määramine kohalikult:
 `git config user.name "SinuNimi"`  
 `git config user.email "SinuEpost@example.com"`  
 
-Klobaalset kasuta määramist arvutites, kus ka teised tööd teevad, pole vast mõistlik panna, kui just pärast kindlalt maha võtad.
+Klobaalset kasuta määramist arvutites, kus ka teised tööd teevad, pole vast mõistlik panna, kui just pärast kindlalt maha võtad. 
 
 ### Peamised git'i käsud
 Peamised git'käsud, mis tasub meie kursusel meelde jätta, on järgmised:  
