@@ -15,7 +15,8 @@ Hinda 10-balli skaalal:
 * Arusaamine tunni teemast tunni lõpuks
 Lisaks kirjuta vabas vormis, mis meeldis, mis ei meeldinud, millele võiks rohkem tähelepanu pöörata.
 
-Näide:
+
+**Näide:**
 ## 26. jaanuar
 ### Tunni algus
 * Tuju – 8
