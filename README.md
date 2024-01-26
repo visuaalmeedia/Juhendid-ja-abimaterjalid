@@ -56,5 +56,5 @@ Tehtud muudatuste lisamine töökorraldusse:
 Hetkeseisu salvestamine ja kommentaar tehtu kohta:  
 `git commit -m "Kommentaar tehtud muudatuse kohta"`  
 Muudatuste saatmine eemal asuvasse reposse:  
-`git push`  
+`git push`   
 
