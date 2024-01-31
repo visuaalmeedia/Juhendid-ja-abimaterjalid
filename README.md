@@ -68,7 +68,7 @@ Githubi sisu on võimalik toimetada ka veebis. Eriti hea on seda teha Visual Stu
 ### Võimalikud probleemid 
 Giti luues, kasutades käsklust `git init`luuakse suure tõenäosusega `master`"oks". Samas nt Github kasutab tänapäeval `main`nimelist oksa. Seega võiks selle muuta samuti `mainiks`. Võimalik on seadistada globaalselt kohalik git looma `main` oksa, või lihtsalt nimetada ümber.  
 
-Esimesel juhul on käsklu `git config --global init.defaultBranch <siia soovitav nimi>`  
+Esimesel juhul on käsklus `git config --global init.defaultBranch <siia soovitav nimi>`  
 Teisel juhul `git branch -m <siia soovitav nimi>`
 
 Seejärel:
