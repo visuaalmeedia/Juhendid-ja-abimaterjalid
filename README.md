@@ -7,7 +7,9 @@
     - [Tunni lõpus](#tunni-lõpus)
   - [Git'i ja Githubi abi](#giti-ja-githubi-abi)
     - [Peamised git'i käsud](#peamised-giti-käsud)
-    - [Githubi repo sisu muutmine VSC veebiversioonid](#githubi-repo-sisu-muutmine-vsc-veebiversioonid)
+    - [Githubi repo sisu muutmine VSC veebiversioonis](#githubi-repo-sisu-muutmine-vsc-veebiversioonis)
+    - [Võimalikud probleemid](#võimalikud-probleemid)
+      - [Juhul kui kasutad arvutit mitme kasutajaga ja tegib probleeme githubi terminali kaudu sisselogimisel](#juhul-kui-kasutad-arvutit-mitme-kasutajaga-ja-tegib-probleeme-githubi-terminali-kaudu-sisselogimisel)
 ## Tundide korraldus
 Seda repositoorumi võiks pidada nagu tunni konspekti, ka muu oluline tasuks siia kirja panna, kas tundide kireldustesse või võib teha ka ühe README.md faili selle jaoks. Iga tunni kohta tuleb luua aga md-fail, millesse kirjuta tunni alguses alguse  ja tunni lõpus lõpu meelestatus. Lisa tunni lõpus ka pikem kommentaar kogu tunni kohta.   
 
@@ -62,3 +64,21 @@ Muudatuste saatmine keskreposse:
 
 ### Githubi repo sisu muutmine VSC veebiversioonis
 Githubi sisu on võimalik toimetada ka veebis. Eriti hea on seda teha Visual Studio Code veebiredigeerija kaudu. Selleks tuleb lihtsalt on repositooriumi aadressi ette lisada `https://vscode.dev/` nt siinse repositoorumi VSC veebiversioonis redigeerimiseks oleks: `https://vscode.dev/github.com/visuaalmeedia/Juhendid-ja-abimaterjalid`
+
+### Võimalikud probleemid 
+Giti luues, kasutades käsklust `git init`luuakse suure tõenäosusega `master`"oks". Samas nt Github kasutab tänapäeval `main`nimelist oksa. Seega võiks selle muuta samuti `mainiks`. Võimalik on seadistada globaalselt kohalik git looma `main` oksa, või lihtsalt nimetada ümber.  
+
+Esimesel juhul on käsklu `git config --global init.defaultBranch <siia soovitav nimi>`  
+Teisel juhul `git branch -m <siia soovitav nimi>`
+
+Seejärel:
+```bash
+git init
+git add .
+git commit -m "Add existing project files to Git"
+git remote add origin https://github.com/sinurepoaadress
+git push -u -f origin main
+```
+
+#### Juhul kui kasutad arvutit mitme kasutajaga ja tegib probleeme githubi terminali kaudu sisselogimisel
+Võid end autentida käsuga `gh auth login`, sel uhuö peab olema installitud Github CLI
