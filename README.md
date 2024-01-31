@@ -81,4 +81,4 @@ git push -u -f origin main
 ```
 
 #### Juhul kui kasutad arvutit mitme kasutajaga ja tegib probleeme githubi terminali kaudu sisselogimisel
-Võid end autentida käsuga `gh auth login`, sel uhuö peab olema installitud Github CLI
+Võid end autentida käsuga `gh auth login`, sel juhul peab olema installitud Github CLI
