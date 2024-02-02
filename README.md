@@ -87,4 +87,4 @@ git push -u -f origin main
 git rm -r --cached .
 
 #### .gitignore fail
-Kui tahad kõik alamakataloogides sisalduvad teatud nimega folderid lisada gitignore faili: `git rm -r --cached .`
+Kui tahad kõik alamakataloogides sisalduvad teatud nimega folderid lisada gitignore faili: `**/node_modules/`
