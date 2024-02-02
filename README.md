@@ -9,7 +9,8 @@
     - [Peamised git'i käsud](#peamised-giti-käsud)
     - [Githubi repo sisu muutmine VSC veebiversioonis](#githubi-repo-sisu-muutmine-vsc-veebiversioonis)
     - [Võimalikud probleemid](#võimalikud-probleemid)
-      - [Juhul kui kasutad arvutit mitme kasutajaga ja tegib probleeme githubi terminali kaudu sisselogimisel](#juhul-kui-kasutad-arvutit-mitme-kasutajaga-ja-tegib-probleeme-githubi-terminali-kaudu-sisselogimisel)
+      - [Git'cache kustutamine, kui tarvis midagi jälgimisest maha võtma](#gitcache-kustutamine-kui-tarvis-midagi-jälgimisest-maha-võtma)
+      - [.gitignore fail](#gitignore-fail)
 ## Tundide korraldus
 Seda repositoorumi võiks pidada nagu tunni konspekti, ka muu oluline tasuks siia kirja panna, kas tundide kireldustesse või võib teha ka ühe README.md faili selle jaoks. Iga tunni kohta tuleb luua aga md-fail, millesse kirjuta tunni alguses alguse  ja tunni lõpus lõpu meelestatus. Lisa tunni lõpus ka pikem kommentaar kogu tunni kohta.   
 
@@ -49,6 +50,8 @@ Kasutaja määramine kohalikult:
 
 Klobaalset kasuta määramist arvutites, kus ka teised tööd teevad, pole vast mõistlik panna, kui just pärast kindlalt maha võtad. 
 
+Võid end autentida käsuga `gh auth login`, sel juhul peab olema installitud Github CLI
+
 ### Peamised git'i käsud
 Peamised git'käsud, mis tasub meie kursusel meelde jätta, on järgmised:  
 Giti kloonimine oma masinasse:  
@@ -80,5 +83,8 @@ git remote add origin https://github.com/sinurepoaadress
 git push -u -f origin main
 ```
 
-#### Juhul kui kasutad arvutit mitme kasutajaga ja tegib probleeme githubi terminali kaudu sisselogimisel
-Võid end autentida käsuga `gh auth login`, sel juhul peab olema installitud Github CLI
+#### Git'cache kustutamine, kui tarvis midagi jälgimisest maha võtma
+git rm -r --cached .
+
+#### .gitignore fail
+Kui tahad kõik alamakataloogides sisalduvad teatud nimega folderid lisada gitignore faili: `git rm -r --cached .`
