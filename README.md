@@ -33,10 +33,16 @@ Lisaks kirjuta vabas vormis, mis meeldis, mis ei meeldinud, millele võiks rohke
 Näide: [01-26-jaanuar.md](01-26-jaanuar.md)
 
 ## Git'i ja Githubi abi
-Sageli juhtub kooli arvutites, et eelmine kasutaja ei ole oma Githubi kasutajat välja loginud. Sel juhul ei saa te oma githubi kontole terminali kaudu sisse. Esmalt logige ennast Visual Studio Code vasakul all nurgas oleva nupu kaudu välja, seejärel tehke terminalile igaks juhuks taaskäivitus ja seejärel logige sealt samast uuesti sisse.
+Sageli juhtub kooli arvutites, et eelmine kasutaja ei ole oma Githubi kasutajat välja loginud. Sel juhul ei saa te oma githubi kontole terminali kaudu sisse. Esmalt logige ennast Visual Studio Code vasakul all nurgas oleva kasutaja ikkoni all oleva nupu kaudu välja, seejärel tehke terminalile igaks juhuks taaskäivitus ja seejärel logige sealt samast uuesti sisse.
 ![Gthub log out](img/vscodeuser.jpg) 
 
-Kui endiselt tekib probleeme proovida ka terminalis git'i kasutajanime muuta ja kontrollida, kas masinas on seadistatud globaalne git'i kasutaja.
+Kui endiselt tekib probleeme proovige terminalis git'i kasutajanime muuta.
+
+Kasutaja määramine kohalikult:  
+`git config user.name "SinuNimi"`  
+`git config user.email "SinuEpost@example.com"`  
+
+Vahel vaja kontrollida, kas masinas on seadistatud globaalne git'i kasutaja
 
 Globaalse git'i kasutaja kontroll:  
 `git config --global user.name`
@@ -44,13 +50,9 @@ Globaalse git'i kasutaja kontroll:
 Globaalse git'i kasutaja mahavõtmine:  
 `git config --global --unset user.email`
 
-Kasutaja määramine kohalikult:  
-`git config user.name "SinuNimi"`  
-`git config user.email "SinuEpost@example.com"`  
+Klobaalset kasutaja määramist arvutites, kus ka teised tööd teevad, pole vast mõistlik, kui just pärast kindlalt maha võtad. 
 
-Klobaalset kasuta määramist arvutites, kus ka teised tööd teevad, pole vast mõistlik panna, kui just pärast kindlalt maha võtad. 
-
-Võid end autentida käsuga `gh auth login`, sel juhul peab olema installitud Github CLI
+Võid end autentida ka käsuga `gh auth login`, sel juhul peab olema installitud Github CLI
 
 ### Peamised git'i käsud
 Peamised git'käsud, mis tasub meie kursusel meelde jätta, on järgmised:  
